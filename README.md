@@ -125,4 +125,10 @@ GitHub Actions is enabled and the a workflow name "Python application test with 
 2. Replace yml code
 The pythonapp.yml code was replaced
 
+3. Verify Remote Tests pass
+
+The changes are push-ed to GitHub and both lint and test steps were verifed which passed test.
+
+Below is a screenshot of the passed GitHub Actions build
+
 
