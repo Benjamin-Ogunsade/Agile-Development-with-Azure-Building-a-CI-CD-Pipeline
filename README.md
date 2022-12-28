@@ -111,3 +111,4 @@ The result of the make all command ran locally is:
 
 test_hello.py::test_hello_subtract PASSED                      [100%]
 
+## CI: Configure GitHub Actions
