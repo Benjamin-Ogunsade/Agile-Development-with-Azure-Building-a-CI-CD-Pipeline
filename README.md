@@ -45,7 +45,6 @@ This is copied and pasted [here](https://github.com/settings/keys), select "New 
 
 Hence, the git clone command will run, unhindered.
 
-
 ````
 git clone git@github.com:Benjamin-Ogunsade/Project2.git
 ````
