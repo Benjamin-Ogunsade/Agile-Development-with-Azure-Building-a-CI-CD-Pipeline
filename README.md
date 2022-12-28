@@ -17,8 +17,8 @@ Here is the link to my Trello Project : https://trello.com/b/LGEaJodJ
 Below is a screenshot 
 ![image](https://user-images.githubusercontent.com/28298236/209764199-97fd9583-1df3-49c4-9091-ae40d2cf5ba7.png)
 
-
-## Building a CI/CD Pipeline
+## CI: Set Up Azure Cloud Shell 
+### Building a CI/CD Pipeline
 
 ### Dependencies
 1. Create an [Azure Account](https://portal.azure.com) 
@@ -112,3 +112,5 @@ The result of the make all command ran locally is:
 test_hello.py::test_hello_subtract PASSED                      [100%]
 
 ## CI: Configure GitHub Actions
+
+
