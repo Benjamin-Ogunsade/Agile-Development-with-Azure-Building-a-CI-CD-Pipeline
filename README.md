@@ -101,5 +101,19 @@ There run the below command
 make all
 ````
 
+An error was encounter upon the first run of the make all command, this was resolved by navigating into the right directory- the local cloned repo Project2 within the virtual environment, see the next two images.
 
+
+Here was the error message
+
+![image](https://user-images.githubusercontent.com/28298236/209798094-bcbbbb73-607a-490d-9690-7f36838bc169.png)
+
+
+![image](https://user-images.githubusercontent.com/28298236/209798456-68aacc34-5bfd-4126-ba6c-f359c1e059f0.png)
+
+The result of the make all command ran locally is:
+
+![image](https://user-images.githubusercontent.com/28298236/209798538-5dcc6c8e-0a5d-403d-bcfa-b84bf55de259.png)
+
+test_hello.py::test_hello_subtract PASSED                      [100%]
 
