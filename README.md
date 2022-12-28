@@ -31,4 +31,25 @@ To clone the starter repository, a public ssh key needs to be generated for remo
 ssh-keygen -t rsa
 ````
 
+![image](https://user-images.githubusercontent.com/28298236/209792103-2dd38240-aa6c-47c0-9333-6dbf99792fcb.png)S
+
+The above command generates the public key which is recovered via:
+
+````
+cat /home/odl_user/.ssh/id_rsa.pub
+````
+![image](https://user-images.githubusercontent.com/28298236/209792190-f43a95f4-c314-47cb-be8f-95d2ed3581dc.png)
+
+This is copied and pasted [here](https://github.com/settings/keys), select "New SSH key", give it a suitable title e.g "Project2_SSH-keys". Validate it.
+<img width="332" alt="image" src="https://user-images.githubusercontent.com/28298236/209792004-39f829aa-41fb-4fb7-ba05-7ea13a79cb15.png">
+
+Hence, the git clone command will run, unhindered.
+
+
+````
+git clone git@github.com:Benjamin-Ogunsade/Project2.git
+````
+Below is a screenshot of the successful cloning
+<img width="518" alt="image" src="https://user-images.githubusercontent.com/28298236/209791607-2f8b7f5c-307e-4968-8535-904a253857b7.png">
+
 
