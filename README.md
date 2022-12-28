@@ -176,6 +176,7 @@ The new project is now created, within which the Pipeline will be implemented
 
 On the Configure tab, "Python to Linux Web App on Azure" was selected
 
+
 ![image](https://user-images.githubusercontent.com/28298236/209816945-2d652305-b73a-462d-85b5-4308dcefa4d9.png)
 
 
