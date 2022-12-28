@@ -18,7 +18,7 @@ Below is a screenshot
 ![image](https://user-images.githubusercontent.com/28298236/209764199-97fd9583-1df3-49c4-9091-ae40d2cf5ba7.png)
 
 
-##Building a CI/CD Pipeline
+## Building a CI/CD Pipeline
 
 ### Dependencies
 1. Create an [Azure Account](https://portal.azure.com) 
