@@ -134,8 +134,6 @@ The pythonapp.yml code was [replaced](https://github.com/Benjamin-Ogunsade/Proje
 The changes are push-ed to GitHub and both lint and test steps were verifed which passed test.
 
 Below is a screenshot of the passed GitHub Actions build
-![image](https://user-images.githubusercontent.com/28298236/209802240-6fdd8e11-c2cc-494a-9ce9-b94823a001df.png)
-
 
 ![image](https://user-images.githubusercontent.com/28298236/209801334-5eb6a45d-bcd2-49d8-88d9-a6cae5ccf469.png)
 
@@ -145,3 +143,11 @@ The Build was successful
 
 
 ## Continuous Delivery on Azure
+Get Flask Starter [Code](https://github.com/udacity/nd082-Azure-Cloud-DevOps-Starter-Code) on the local machine
+
+Azure Continuous Delivery PAAS 
+
+1. The scaffolding code is replaced with Flask Machine Learning code
+
+
+
