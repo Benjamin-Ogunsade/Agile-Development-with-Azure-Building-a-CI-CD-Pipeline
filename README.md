@@ -52,6 +52,16 @@ git clone git@github.com:Benjamin-Ogunsade/Project2.git
 
 <img width="518" alt="image" src="https://user-images.githubusercontent.com/28298236/209791607-2f8b7f5c-307e-4968-8535-904a253857b7.png">
 
+
+### Project Scaffolding
+1. Create the Makefile
+![image](https://user-images.githubusercontent.com/28298236/209795035-14021c84-74a6-43eb-8614-1f69a92845cf.png)
+
+2. Create the requirements.txt file
+![image](https://user-images.githubusercontent.com/28298236/209795136-61abfaa4-4684-4159-bad8-2aa0b1242038.png)
+
+3. Create the Python virtual environment
+
 ### Create the Python Virtual Environment
 
 ````
@@ -66,3 +76,13 @@ source ~/.myrepo/bin/activate
 
 Having created the vitual environment and sourced into it
 
+
+4. Create the project script and file test
+
+
+![image](https://user-images.githubusercontent.com/28298236/209795357-0f7d31a3-afd9-4692-aba3-5053d0236471.png)
+
+![image](https://user-images.githubusercontent.com/28298236/209795394-707ba9cb-cf70-4e33-9861-71e17f4dccf7.png)
+
+
+7. 
