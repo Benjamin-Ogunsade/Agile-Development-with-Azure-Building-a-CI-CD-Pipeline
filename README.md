@@ -55,9 +55,11 @@ git clone git@github.com:Benjamin-Ogunsade/Project2.git
 
 ### Project Scaffolding
 1. Create the Makefile
+
 ![image](https://user-images.githubusercontent.com/28298236/209795035-14021c84-74a6-43eb-8614-1f69a92845cf.png)
 
 2. Create the requirements.txt file
+
 ![image](https://user-images.githubusercontent.com/28298236/209795136-61abfaa4-4684-4159-bad8-2aa0b1242038.png)
 
 3. Create the Python virtual environment
@@ -89,9 +91,12 @@ The file test
 ### Local Tests
 1. To run the make all command locally:
 
-Now that you are in the 
-Ensure that your current pwd is in the local cloned repo Project2  
+Now that you are in the virtual environment named .myrepo, please navigate to the local cloned repo Project2.
+
+There run the below command
 ````
 make all
 ````
+
+
 
