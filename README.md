@@ -162,6 +162,7 @@ Azure Continuous Delivery PAAS
 
 
 Producing
+
 ![image](https://user-images.githubusercontent.com/28298236/209810726-2d10b6e9-4244-43eb-82cb-ad657a8aab80.png)
 
 
@@ -182,16 +183,11 @@ The new project is now created, within which the Pipeline will be implemented
 
 On the Configure tab, "Python to Linux Web App on Azure" was selected
 
-
 ![image](https://user-images.githubusercontent.com/28298236/209816945-2d652305-b73a-462d-85b5-4308dcefa4d9.png)
-
-
 
 * Creating a new service connection called the "Azure Resource manager"
 
 ![image](https://user-images.githubusercontent.com/28298236/209817880-aca3e8d8-8f14-4673-a54b-ba5dbb822af1.png)
-
-
 
 
 ![image](https://user-images.githubusercontent.com/28298236/209821278-7f637cf0-505d-4048-aac3-df2f2893db01.png)
