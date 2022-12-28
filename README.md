@@ -113,4 +113,8 @@ test_hello.py::test_hello_subtract PASSED                      [100%]
 
 ## CI: Configure GitHub Actions
 
+1. Enable Github Actions
+Go to your Github Account and enable Github Actions.
+![image](https://user-images.githubusercontent.com/28298236/209800174-fedbf5e0-6e0c-4c48-b808-f5234f237f89.png)
+
 
