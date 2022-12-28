@@ -145,6 +145,11 @@ The Build was successful
 ## Continuous Delivery on Azure
 Get Flask Starter [Code](https://github.com/udacity/nd082-Azure-Cloud-DevOps-Starter-Code) on the local machine
 
+The folder was cloned and then moved to the project directory
+
+![image](https://user-images.githubusercontent.com/28298236/209822178-9d0ac6e2-a476-4a68-8156-fc3cd37d02b0.png)
+
+
 Azure Continuous Delivery PAAS 
 
 1. The scaffolding code is replaced with Flask Machine Learning code.
@@ -154,6 +159,7 @@ Azure Continuous Delivery PAAS
 * Go to Azure DevOps organizations
 
 ![image](https://user-images.githubusercontent.com/28298236/209810221-ab39f290-82d6-4989-a947-e22ec8d6ac69.png)
+
 
 Producing
 ![image](https://user-images.githubusercontent.com/28298236/209810726-2d10b6e9-4244-43eb-82cb-ad657a8aab80.png)
@@ -186,5 +192,8 @@ On the Configure tab, "Python to Linux Web App on Azure" was selected
 ![image](https://user-images.githubusercontent.com/28298236/209817880-aca3e8d8-8f14-4673-a54b-ba5dbb822af1.png)
 
 
+
+
+![image](https://user-images.githubusercontent.com/28298236/209821278-7f637cf0-505d-4048-aac3-df2f2893db01.png)
 
 
