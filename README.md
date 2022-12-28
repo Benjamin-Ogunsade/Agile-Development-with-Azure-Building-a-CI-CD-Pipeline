@@ -115,6 +115,14 @@ test_hello.py::test_hello_subtract PASSED                      [100%]
 
 1. Enable Github Actions
 Go to your Github Account and enable Github Actions.
+
 ![image](https://user-images.githubusercontent.com/28298236/209800174-fedbf5e0-6e0c-4c48-b808-f5234f237f89.png)
+
+GitHub Actions is enabled and the a workflow name "Python application test with Github Actions" was created:
+
+![image](https://user-images.githubusercontent.com/28298236/209800479-a71f95ca-0884-4fe9-81ab-7519a58d4fb1.png)
+
+2. Replace yml code
+The pythonapp.yml code was replaced
 
 
