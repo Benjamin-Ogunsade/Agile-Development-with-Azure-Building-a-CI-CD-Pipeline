@@ -147,7 +147,37 @@ Get Flask Starter [Code](https://github.com/udacity/nd082-Azure-Cloud-DevOps-Sta
 
 Azure Continuous Delivery PAAS 
 
-1. The scaffolding code is replaced with Flask Machine Learning code
+1. The scaffolding code is replaced with Flask Machine Learning code.
+
+2. Authorize Azure App services
+
+* Go to Azure DevOps organizations
+
+![image](https://user-images.githubusercontent.com/28298236/209810221-ab39f290-82d6-4989-a947-e22ec8d6ac69.png)
+
+Producing
+![image](https://user-images.githubusercontent.com/28298236/209810726-2d10b6e9-4244-43eb-82cb-ad657a8aab80.png)
+
+
+* To create a new Project on Azure DevOps named "Project 2__ Continuous Delivery on Azure" :
+
+![image](https://user-images.githubusercontent.com/28298236/209811430-5d02bfe6-6625-4481-a8df-4de31eca27a3.png)
+
+The new project is now created, within which the Pipeline will be implemented 
+
+![image](https://user-images.githubusercontent.com/28298236/209811951-dc5136ec-5d37-4b1e-a246-0fcf26c53a9f.png)
+
+
+* To create a pipeline
+
+![image](https://user-images.githubusercontent.com/28298236/209812244-69f20dc8-9894-4b13-a3b9-0ad752f3eef6.png)
+
+* Configuring the Pipeline
+
+
+
+
+
 
 
 
