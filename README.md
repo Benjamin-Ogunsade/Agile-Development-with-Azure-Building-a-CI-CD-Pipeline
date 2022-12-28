@@ -80,11 +80,12 @@ Having created the vitual environment and sourced into it
 4. Create the project script and file test
 
 The project script
-
-![image](https://user-images.githubusercontent.com/28298236/209795963-53892dd9-8750-4246-b5f5-d98377a16bdb.png)
+![image](https://user-images.githubusercontent.com/28298236/209796259-f3470cf9-87b3-4922-908a-1567251cc1e3.png)
 
 The file test
 ![image](https://user-images.githubusercontent.com/28298236/209795394-707ba9cb-cf70-4e33-9861-71e17f4dccf7.png)
+
+To run the make all command locally:
 
 
 7. 
