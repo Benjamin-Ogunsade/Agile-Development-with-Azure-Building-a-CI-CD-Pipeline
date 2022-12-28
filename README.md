@@ -134,6 +134,9 @@ The pythonapp.yml code was [replaced](https://github.com/Benjamin-Ogunsade/Proje
 The changes are push-ed to GitHub and both lint and test steps were verifed which passed test.
 
 Below is a screenshot of the passed GitHub Actions build
+![image](https://user-images.githubusercontent.com/28298236/209802240-6fdd8e11-c2cc-494a-9ce9-b94823a001df.png)
+
+
 ![image](https://user-images.githubusercontent.com/28298236/209801334-5eb6a45d-bcd2-49d8-88d9-a6cae5ccf469.png)
 
 The Build was successful
@@ -141,3 +144,4 @@ The Build was successful
 ![image](https://user-images.githubusercontent.com/28298236/209801830-c3dbd8c6-b44c-4c94-9fbc-9f43c1400215.png)
 
 
+## Continuous Delivery on Azure
