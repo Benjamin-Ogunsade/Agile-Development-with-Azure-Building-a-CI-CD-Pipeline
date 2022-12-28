@@ -85,7 +85,13 @@ The project script
 The file test
 ![image](https://user-images.githubusercontent.com/28298236/209795394-707ba9cb-cf70-4e33-9861-71e17f4dccf7.png)
 
-To run the make all command locally:
 
+### Local Tests
+1. To run the make all command locally:
 
-7. 
+Now that you are in the 
+Ensure that your current pwd is in the local cloned repo Project2  
+````
+make all
+````
+
