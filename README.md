@@ -31,7 +31,7 @@ To clone the starter repository, a public ssh key needs to be generated for remo
 ssh-keygen -t rsa
 ````
 
-![image](https://user-images.githubusercontent.com/28298236/209792103-2dd38240-aa6c-47c0-9333-6dbf99792fcb.png)S
+![image](https://user-images.githubusercontent.com/28298236/209792103-2dd38240-aa6c-47c0-9333-6dbf99792fcb.png)
 
 The above command generates the public key which is recovered via:
 
@@ -50,6 +50,7 @@ Hence, the git clone command will run, unhindered.
 git clone git@github.com:Benjamin-Ogunsade/Project2.git
 ````
 Below is a screenshot of the successful cloning
+
 <img width="518" alt="image" src="https://user-images.githubusercontent.com/28298236/209791607-2f8b7f5c-307e-4968-8535-904a253857b7.png">
 
 
