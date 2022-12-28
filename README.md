@@ -79,9 +79,11 @@ Having created the vitual environment and sourced into it
 
 4. Create the project script and file test
 
+The project script
 
 ![image](https://user-images.githubusercontent.com/28298236/209795357-0f7d31a3-afd9-4692-aba3-5053d0236471.png)
 
+The file test
 ![image](https://user-images.githubusercontent.com/28298236/209795394-707ba9cb-cf70-4e33-9861-71e17f4dccf7.png)
 
 
