@@ -48,8 +48,21 @@ Hence, the git clone command will run, unhindered.
 ````
 git clone git@github.com:Benjamin-Ogunsade/Project2.git
 ````
-Below is a screenshot of the successful cloning
+3. Below is a screenshot of the successful cloning
 
 <img width="518" alt="image" src="https://user-images.githubusercontent.com/28298236/209791607-2f8b7f5c-307e-4968-8535-904a253857b7.png">
 
+### Create the Python Virtual Environment
+
+````
+python3 -m venv ~/.myrepo
+````
+![image](https://user-images.githubusercontent.com/28298236/209793932-f8f6cd47-a409-4298-a49c-2a14483b76e3.png)
+
+````
+source ~/.myrepo/bin/activate
+````
+![image](https://user-images.githubusercontent.com/28298236/209794012-b651ac0d-b560-490a-a17c-04694d0e8a3e.png)
+
+Having created the vitual environment and sourced into it
 
