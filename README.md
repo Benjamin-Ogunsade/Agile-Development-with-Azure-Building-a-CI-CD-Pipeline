@@ -145,9 +145,15 @@ Ensure that the above file is earlier granted the 'execution' permission, by the
 ````
 chmod +x ./make_prediction.sh
 ````
-Also, the app.py must be running before the prediction is locally exceuted. Below is the result of the local prediction:
+Also, the app.py must be running before the prediction is locally executed. Below is the result of the local prediction:
 
+![image](https://user-images.githubusercontent.com/28298236/210015299-72dd7a06-859e-4799-9cf1-4be0bb1fb960.png)
 
+Next is to run the remote prediction, there is the need to first deploy the web app
+
+````
+az webapp up --name myflaskmlwebappy --resource-group Azuredevops --runtime "PYTHON:3.7"
+````
 
 1. Enable Github Actions
 
