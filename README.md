@@ -96,12 +96,12 @@ The file test
 
 Now that you are in the virtual environment named .myrepo, please navigate to the local cloned repo Project2.
 
-There run the below command
+TheN run the below command
 ````
 make all
 ````
 
-An error was encounter upon the first run of the make all command, this was resolved by navigating into the right directory- the local cloned repo Project2 within the virtual environment, see the image below.
+An error was encounter upon the first run of the make all command, this was resolved by navigating into the right directory- the locally cloned repo Project2 within the virtual environment, see the image below.
 
 ![image](https://user-images.githubusercontent.com/28298236/209798761-29fb051c-4639-42d9-9733-03eb2132f265.png)
 
@@ -154,11 +154,38 @@ Next is to run the remote prediction, there is the need to first deploy the web 
 ````
 az webapp up -n myflaskmlwebappy --resource-group ODL-clouddevops-220704  --runtime "PYTHON:3.7"
 ````
+The result produced was :
 
+![image](https://user-images.githubusercontent.com/28298236/210017931-0814d1c3-6cc0-497a-88ac-9a286dd61f0b.png)
+
+
+In the previously executed command, it is expedient to state the right -rg which is the -rg on the Azure portal of your Az subscription.
+
+The app is now on the fly and publicly acccessibly via the URL (https://myflaskmlwebappy.azurewebsites.net/) provided in the result provided; the next image depicts the rendition of the URL.
+
+![image](https://user-images.githubusercontent.com/28298236/210018521-1210f0ca-f342-4918-b07b-637205d9aeec.png)
+
+The URL is now recovered and inserted in the make_predict_azure_app.sh, specifically in the POST url.
+
+The app app.py must keep on runnning in the second cloud shell environment.
+
+Thereafter, the make_predict_azure_app.sh is run
 
 ````
-
+./make_predict_azure_app.sh
 ````
+
+Produces the result:
+
+![image](https://user-images.githubusercontent.com/28298236/210019418-ada9491e-3b83-4e8c-be0f-6b3ba65be3a0.png)
+
+The result shows that the app runs on the port 443.
+
+Next, we head to the Azure portal to located the deployed App Service Plan and the App Service.
+
+![image](https://user-images.githubusercontent.com/28298236/210019835-a17973cd-d65c-4e0f-b4b8-f2e62281656f.png)
+
+
 
 1. Enable Github Actions
 
