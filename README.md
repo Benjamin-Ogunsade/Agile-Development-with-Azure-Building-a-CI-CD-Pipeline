@@ -185,6 +185,12 @@ Next, we head to the Azure portal to located the deployed App Service Plan and t
 
 ![image](https://user-images.githubusercontent.com/28298236/210019835-a17973cd-d65c-4e0f-b4b8-f2e62281656f.png)
 
+Inasmuch as the App Service is running, the URL will be accessible.
+
+To generate the log, the following command is executed:
+
+![image](https://user-images.githubusercontent.com/28298236/210020082-5f3f326a-f7a8-4f69-94a2-b587546dabca.png)
+
 
 
 1. Enable Github Actions
