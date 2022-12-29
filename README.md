@@ -189,8 +189,17 @@ Inasmuch as the App Service is running, the URL will be accessible.
 
 To generate the log, the following command is executed:
 
-![image](https://user-images.githubusercontent.com/28298236/210020082-5f3f326a-f7a8-4f69-94a2-b587546dabca.png)
+````
+az webapp log tail
+````
 
+The following result is produced:
+
+![image](https://user-images.githubusercontent.com/28298236/210020406-43833d19-0897-49ed-be0d-abe153b47d2a.png)
+
+From the above result, it is evident that
+
+* - Container myflaskmlwebappy_0_5e53f50d for site myflaskmlwebappy initialized successfully and is ready to serve requests.
 
 
 1. Enable Github Actions
