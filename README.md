@@ -199,8 +199,10 @@ The following result is produced:
 
 From the above result, it is evident that
 
-* - Container myflaskmlwebappy_0_5e53f50d for site myflaskmlwebappy initialized successfully and is ready to serve requests.
+* Container myflaskmlwebappy_0_5e53f50d for site myflaskmlwebappy initialized successfully and is ready to serve requests.
 
+
+In order to check the performance validation using the locust.py file,
 
 1. Enable Github Actions
 
