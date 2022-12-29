@@ -152,7 +152,12 @@ Also, the app.py must be running before the prediction is locally executed. Belo
 Next is to run the remote prediction, there is the need to first deploy the web app
 
 ````
-az webapp up --name myflaskmlwebappy --resource-group Azuredevops --runtime "PYTHON:3.7"
+az webapp up -n myflaskmlwebappy --resource-group ODL-clouddevops-220704  --runtime "PYTHON:3.7"
+````
+
+
+````
+
 ````
 
 1. Enable Github Actions
