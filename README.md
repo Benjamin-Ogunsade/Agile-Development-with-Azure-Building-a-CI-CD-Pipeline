@@ -145,6 +145,7 @@ Ensure that the above file is earlier granted the 'execution' permission, by the
 ````
 chmod +x ./make_prediction.sh
 ````
+
 Also, the app.py must be running before the prediction is locally executed. Below is the result of the local prediction:
 
 ![image](https://user-images.githubusercontent.com/28298236/210015299-72dd7a06-859e-4799-9cf1-4be0bb1fb960.png)
@@ -169,7 +170,7 @@ The URL is now recovered and inserted in the make_predict_azure_app.sh, specific
 
 The app app.py must keep on runnning in the second cloud shell environment.
 
-Thereafter, the make_predict_azure_app.sh is run
+Thereafter, the make_predict_azure_app.sh is executed using:
 
 ````
 ./make_predict_azure_app.sh
@@ -202,7 +203,15 @@ From the above result, it is evident that
 * Container myflaskmlwebappy_0_5e53f50d for site myflaskmlwebappy initialized successfully and is ready to serve requests.
 
 
-In order to check the performance validation using the locust.py file,
+In order to check the performance validation using the locustfile.py file, the prediction parameters are correlated with that of the app.py file.
+
+Next, the file is run
+
+
+````
+locust -f locustfile.py --headless -u 20 -r 5 -t 20s
+````
+
 
 1. Enable Github Actions
 
