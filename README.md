@@ -212,6 +212,24 @@ Next, the file is run
 locust -f locustfile.py --headless -u 20 -r 5 -t 20s
 ````
 
+![image](https://user-images.githubusercontent.com/28298236/210023306-ec728d4c-0c19-401d-a288-0d8bdde11455.png)
+
+The result is :
+
+![image](https://user-images.githubusercontent.com/28298236/210023367-d4a1db2d-11a7-4480-bf74-b507ee357e0c.png)
+
+### CI: Configure GitHub Actions
+
+The next phase of the project is to perform the Azure DevOps deployment using CI/CI Azure Pipeline.
+
+* First, verify that the WebApp url is active via the command
+
+````
+./make_predict_azure_app.sh
+````
+
+And true is the case; it is still active on port 443.
+
 
 1. Enable Github Actions
 
@@ -237,7 +255,7 @@ Below is a screenshot of the passed GitHub Actions build
 
 ![image](https://user-images.githubusercontent.com/28298236/209801334-5eb6a45d-bcd2-49d8-88d9-a6cae5ccf469.png)
 
-The Build was successful
+The Build was successfull
 
 ![image](https://user-images.githubusercontent.com/28298236/209801830-c3dbd8c6-b44c-4c94-9fbc-9f43c1400215.png)
 
