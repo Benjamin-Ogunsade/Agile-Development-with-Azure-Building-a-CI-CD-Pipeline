@@ -230,50 +230,29 @@ The next phase of the project is to perform the Azure DevOps deployment using CI
 
 And true is the case; it is still active on port 443.
 
+* Second, verify this
 
+````
+./make_prediction.sh
+````
 
-1. Enable Github Actions
+Both works still as shown below :
 
-Go to your Github Account and enable Github Actions.
+![image](https://user-images.githubusercontent.com/28298236/210109394-b86ded61-47f2-48a8-86ae-eb048c1df2ea.png)
 
-![image](https://user-images.githubusercontent.com/28298236/209800174-fedbf5e0-6e0c-4c48-b808-f5234f237f89.png)
+In summary for the Cloud share, the local and remote predictions are working correctly.
 
-GitHub Actions is enabled and the a workflow name "Python application test with Github Actions" was created:
+*Next, proceed to the Azure Portal to launch the "Azure DevOps Organization" 
 
-![image](https://user-images.githubusercontent.com/28298236/209800479-a71f95ca-0884-4fe9-81ab-7519a58d4fb1.png)
-
-2. Replace yml code
-
-The pythonapp.yml code was [replaced](https://github.com/Benjamin-Ogunsade/Project2/blob/main/.github/workflows/pythonapp.yml)
-
-![image](https://user-images.githubusercontent.com/28298236/209801198-2bbbe2e4-18e8-49cb-807b-58ce90214439.png)
-
-3. Verify Remote Tests pass
-
-The changes are push-ed to GitHub and both lint and test steps were verifed which passed test.
-
-Below is a screenshot of the passed GitHub Actions build
-
-![image](https://user-images.githubusercontent.com/28298236/209801334-5eb6a45d-bcd2-49d8-88d9-a6cae5ccf469.png)
-
-The Build was successfull
-
-![image](https://user-images.githubusercontent.com/28298236/209801830-c3dbd8c6-b44c-4c94-9fbc-9f43c1400215.png)
-
-
-## Continuous Delivery on Azure
-Get Flask Starter [Code](https://github.com/udacity/nd082-Azure-Cloud-DevOps-Starter-Code) on the local machine
-
-The folder was cloned and then moved to the project directory
-
-![image](https://user-images.githubusercontent.com/28298236/209822178-9d0ac6e2-a476-4a68-8156-fc3cd37d02b0.png)
 
 
 Azure Continuous Delivery PAAS 
 
-1. The scaffolding code is replaced with Flask Machine Learning code.
+As a means of recapitulation,
 
-2. Authorize Azure App services
+1. The scaffolding code has been replaced with Flask Machine Learning code.
+
+2. The Azure App services has been authorized and our deployed app is currently running on our instance on the Azure platform.
 
 * Go to Azure DevOps organizations
 
@@ -311,4 +290,48 @@ On the Configure tab, "Python to Linux Web App on Azure" was selected
 
 ![image](https://user-images.githubusercontent.com/28298236/209821278-7f637cf0-505d-4048-aac3-df2f2893db01.png)
 
+
+
+
+
+
+
+
+
+
+1. Enable Github Actions
+
+Go to your Github Account and enable Github Actions.
+
+![image](https://user-images.githubusercontent.com/28298236/209800174-fedbf5e0-6e0c-4c48-b808-f5234f237f89.png)
+
+GitHub Actions is enabled and the a workflow name "Python application test with Github Actions" was created:
+
+![image](https://user-images.githubusercontent.com/28298236/209800479-a71f95ca-0884-4fe9-81ab-7519a58d4fb1.png)
+
+2. Replace yml code
+
+The pythonapp.yml code was [replaced](https://github.com/Benjamin-Ogunsade/Project2/blob/main/.github/workflows/pythonapp.yml)
+
+![image](https://user-images.githubusercontent.com/28298236/209801198-2bbbe2e4-18e8-49cb-807b-58ce90214439.png)
+
+3. Verify Remote Tests pass
+
+The changes are push-ed to GitHub and both lint and test steps were verifed which passed test.
+
+Below is a screenshot of the passed GitHub Actions build
+
+![image](https://user-images.githubusercontent.com/28298236/209801334-5eb6a45d-bcd2-49d8-88d9-a6cae5ccf469.png)
+
+The Build was successfull
+
+![image](https://user-images.githubusercontent.com/28298236/209801830-c3dbd8c6-b44c-4c94-9fbc-9f43c1400215.png)
+
+
+## Continuous Delivery on Azure
+Get Flask Starter [Code](https://github.com/udacity/nd082-Azure-Cloud-DevOps-Starter-Code) on the local machine
+
+The folder was cloned and then moved to the project directory
+
+![image](https://user-images.githubusercontent.com/28298236/209822178-9d0ac6e2-a476-4a68-8156-fc3cd37d02b0.png)
 
