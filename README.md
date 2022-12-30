@@ -155,6 +155,7 @@ Next is to run the remote prediction, there is the need to first deploy the web 
 ````
 az webapp up -n myflaskmlwebappy --resource-group ODL-clouddevops-220704  --runtime "PYTHON:3.7"
 ````
+
 The result produced was :
 
 ![image](https://user-images.githubusercontent.com/28298236/210017931-0814d1c3-6cc0-497a-88ac-9a286dd61f0b.png)
@@ -207,7 +208,6 @@ In order to check the performance validation using the locustfile.py file, the p
 
 Next, the file is run
 
-
 ````
 locust -f locustfile.py --headless -u 20 -r 5 -t 20s
 ````
@@ -242,11 +242,11 @@ Both works still as shown below :
 
 In summary for the Cloud share, the local and remote predictions are working correctly.
 
-*Next, proceed to the Azure Portal to launch the "Azure DevOps Organization" 
+* Next, proceed to the Azure Portal to launch the "Azure DevOps Organization" 
 
 
 
-Azure Continuous Delivery PAAS 
+### Azure Continuous Delivery PAAS 
 
 As a means of recapitulation,
 
@@ -273,25 +273,51 @@ The new project is now created, within which the Pipeline will be implemented
 ![image](https://user-images.githubusercontent.com/28298236/209811951-dc5136ec-5d37-4b1e-a246-0fcf26c53a9f.png)
 
 
-* To create a [pipeline](https://learn.microsoft.com/fr-fr/azure/devops/pipelines/ecosystems/python-webapp?view=azure-devops&WT.mc_id=udacity_learn-wwl#create-a-python-specific-pipeline-to-deploy-to-app-service)
 
-![image](https://user-images.githubusercontent.com/28298236/209812244-69f20dc8-9894-4b13-a3b9-0ad752f3eef6.png)
+
+
+
+We configure the Pipeline before creating one:
 
 * Configuring the Pipeline
+
+Click 'Project Settings' --> Service Connections
 
 On the Configure tab, "Python to Linux Web App on Azure" was selected
 
 ![image](https://user-images.githubusercontent.com/28298236/209816945-2d652305-b73a-462d-85b5-4308dcefa4d9.png)
 
+
 * Creating a new service connection called the "Azure Resource manager"
+
+Click 'Create service connection'
 
 ![image](https://user-images.githubusercontent.com/28298236/209817880-aca3e8d8-8f14-4673-a54b-ba5dbb822af1.png)
 
+Choose 'Azure Resource Manager' 
 
 ![image](https://user-images.githubusercontent.com/28298236/209821278-7f637cf0-505d-4048-aac3-df2f2893db01.png)
 
+Choose 'Service principal (automatic) as authentication method, in order to enable the Build run automatically upon modification of the artifact.
+
+Make the following choices to create a "New Azure service connection"
+
+* Scope level:  'Subscription'
+* Subscription:  select your Azure subscription
+* Resource group:  select the resouce group of the earlier Azure deployed app 
+* Service connection: "project2_serv_cxn"
+
+Ensure to check in 'Grant access permission to all pipelines'
+
+Once
 
 
+
+
+
+* To create a [pipeline](https://learn.microsoft.com/fr-fr/azure/devops/pipelines/ecosystems/python-webapp?view=azure-devops&WT.mc_id=udacity_learn-wwl#create-a-python-specific-pipeline-to-deploy-to-app-service)
+
+![image](https://user-images.githubusercontent.com/28298236/209812244-69f20dc8-9894-4b13-a3b9-0ad752f3eef6.png)
 
 
 
