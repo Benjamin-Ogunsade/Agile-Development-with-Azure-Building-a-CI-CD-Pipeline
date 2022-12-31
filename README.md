@@ -31,6 +31,11 @@ To clone the starter repository, a public ssh key needs to be generated for remo
 ssh-keygen -t rsa
 ````
 
+![image](https://user-images.githubusercontent.com/28298236/210119072-fc1829a1-1483-41eb-9bcb-c3fa8224bbc1.png)
+
+
+Delete next
+
 ![image](https://user-images.githubusercontent.com/28298236/209792103-2dd38240-aa6c-47c0-9333-6dbf99792fcb.png)
 
 The above command generates the public key which is recovered via:
@@ -38,6 +43,12 @@ The above command generates the public key which is recovered via:
 ````
 cat /home/odl_user/.ssh/id_rsa.pub
 ````
+
+![image](https://user-images.githubusercontent.com/28298236/210119125-5f15b10b-96d3-46d2-a446-5ab84bf24445.png)
+
+
+Delete next
+
 ![image](https://user-images.githubusercontent.com/28298236/209792190-f43a95f4-c314-47cb-be8f-95d2ed3581dc.png)
 
 This is copied and pasted [here](https://github.com/settings/keys), select "New SSH key", give it a suitable title e.g "Project2_SSH-keys". Validate it.
@@ -96,7 +107,7 @@ The file test
 
 Now that you are in the virtual environment named .myrepo, please navigate to the local cloned repo Project2.
 
-TheN run the below command
+Then run the below command
 ````
 make all
 ````
@@ -153,17 +164,21 @@ Also, the app.py must be running before the prediction is locally executed. Belo
 Next is to run the remote prediction, there is the need to first deploy the web app
 
 ````
-az webapp up -n myflaskmlwebappy --resource-group ODL-clouddevops-220704  --runtime "PYTHON:3.7"
+az webapp up --name myflaskmlwebapp --resource-group omoobanimi234 --runtime "PYTHON:3.7"
 ````
 
 The result produced was :
+
+![image](https://user-images.githubusercontent.com/28298236/210118974-be95c266-28e5-4d4a-99be-ed86d75438f0.png)
+
+Delete next
 
 ![image](https://user-images.githubusercontent.com/28298236/210017931-0814d1c3-6cc0-497a-88ac-9a286dd61f0b.png)
 
 
 In the previously executed command, it is expedient to state the right -rg which is the -rg on the Azure portal of your Az subscription.
 
-The app is now on the fly and publicly acccessibly via the URL (https://myflaskmlwebappy.azurewebsites.net/) provided in the result provided; the next image depicts the rendition of the URL.
+The app is now on the fly and publicly acccessibly via the URL (https://myflaskmlwebapp.azurewebsites.net/) provided in the result provided; the next image depicts the rendition of the URL.
 
 ![image](https://user-images.githubusercontent.com/28298236/210018521-1210f0ca-f342-4918-b07b-637205d9aeec.png)
 
