@@ -116,9 +116,19 @@ The result of the make all command ran locally is:
 
 test_hello.py::test_hello_subtract PASSED                      [100%]
 
+
+## Continuous Delivery on Azure (pre-requisite)
+Get Flask Starter [Code](https://github.com/udacity/nd082-Azure-Cloud-DevOps-Starter-Code) on the local machine
+
+The folder was cloned and then moved to the project directory
+
+![image](https://user-images.githubusercontent.com/28298236/209822178-9d0ac6e2-a476-4a68-8156-fc3cd37d02b0.png)
+
+
 ## CI: Configure GitHub Actions
 
-Before going into the GitHub Actions buid proper, we need to start the application in a new cloud session, and then source into the python virtual environment ".myrepo"
+
+Before going into the GitHub Actions build proper, we need to start the application in a new cloud session, and then source into the python virtual environment ".myrepo"
 
 ````
 source ~/.myrepo/bin/activate
@@ -229,6 +239,39 @@ The result is :
 
 ### CI: Configure GitHub Actions
 
+
+
+1. Enable Github Actions
+
+Go to your Github Account and enable Github Actions.
+
+![image](https://user-images.githubusercontent.com/28298236/209800174-fedbf5e0-6e0c-4c48-b808-f5234f237f89.png)
+
+GitHub Actions is enabled and the a workflow name "Python application test with Github Actions" was created:
+
+![image](https://user-images.githubusercontent.com/28298236/209800479-a71f95ca-0884-4fe9-81ab-7519a58d4fb1.png)
+
+2. Replace yml code
+
+The pythonapp.yml code was [replaced](https://github.com/Benjamin-Ogunsade/Project2/blob/main/.github/workflows/pythonapp.yml)
+
+![image](https://user-images.githubusercontent.com/28298236/209801198-2bbbe2e4-18e8-49cb-807b-58ce90214439.png)
+
+3. Verify Remote Tests pass
+
+The changes are push-ed to GitHub and both lint and test steps were verifed which passed test.
+
+Below is a screenshot of the passed GitHub Actions build
+
+![image](https://user-images.githubusercontent.com/28298236/209801334-5eb6a45d-bcd2-49d8-88d9-a6cae5ccf469.png)
+
+The Build was successfull
+
+![image](https://user-images.githubusercontent.com/28298236/209801830-c3dbd8c6-b44c-4c94-9fbc-9f43c1400215.png)
+
+
+
+### CI: Azure DevOps deployment set up using CI/CI Azure Pipeline
 The next phase of the project is to perform the Azure DevOps deployment using CI/CI Azure Pipeline.
 
 * First, verify that the WebApp url is active via the command
@@ -332,6 +375,11 @@ Once the service connection is established between the AzureDevOps Organization 
 
 * Click "Create Pipeline"
 
+To create a [pipeline](https://learn.microsoft.com/fr-fr/azure/devops/pipelines/ecosystems/python-webapp?view=azure-devops&WT.mc_id=udacity_learn-wwl#create-a-python-specific-pipeline-to-deploy-to-app-service)
+
+![image](https://user-images.githubusercontent.com/28298236/209812244-69f20dc8-9894-4b13-a3b9-0ad752f3eef6.png)
+
+
 * Select "GitHub (YAML)" as the YAML file will be stored on the Gitub repo
 
 * Select the project repo stored on GitHub "project2/"
@@ -359,6 +407,7 @@ It is to note that a [self-hosted agent](https://learn.microsoft.com/en-us/azure
 
 ![image](https://user-images.githubusercontent.com/28298236/210149265-6d159f3d-d40a-4b43-882c-f0b6c4769e91.png)
 
+To set up the self-hosted agent, see [here](https://dev.azure.com/leonardo091/My_Flask_ML_app_project2/_settings/agentqueues?queueId=1&view=agents)
 
 ![image](https://user-images.githubusercontent.com/28298236/210149062-7533554e-b218-4d01-a0f9-e67dbad6592f.png)
 
@@ -369,61 +418,8 @@ Also there were issues encountered concerning SSL certificates and Restricted [p
 Doing this enables the python scripts to be downladed and built automatically from GitHub Actions.
 
 
-
-  
-
-
 ![image](https://user-images.githubusercontent.com/28298236/209816945-2d652305-b73a-462d-85b5-4308dcefa4d9.png)
 
 
 
-
-
-
-
-* To create a [pipeline](https://learn.microsoft.com/fr-fr/azure/devops/pipelines/ecosystems/python-webapp?view=azure-devops&WT.mc_id=udacity_learn-wwl#create-a-python-specific-pipeline-to-deploy-to-app-service)
-
-![image](https://user-images.githubusercontent.com/28298236/209812244-69f20dc8-9894-4b13-a3b9-0ad752f3eef6.png)
-
-
-
-
-
-
-
-1. Enable Github Actions
-
-Go to your Github Account and enable Github Actions.
-
-![image](https://user-images.githubusercontent.com/28298236/209800174-fedbf5e0-6e0c-4c48-b808-f5234f237f89.png)
-
-GitHub Actions is enabled and the a workflow name "Python application test with Github Actions" was created:
-
-![image](https://user-images.githubusercontent.com/28298236/209800479-a71f95ca-0884-4fe9-81ab-7519a58d4fb1.png)
-
-2. Replace yml code
-
-The pythonapp.yml code was [replaced](https://github.com/Benjamin-Ogunsade/Project2/blob/main/.github/workflows/pythonapp.yml)
-
-![image](https://user-images.githubusercontent.com/28298236/209801198-2bbbe2e4-18e8-49cb-807b-58ce90214439.png)
-
-3. Verify Remote Tests pass
-
-The changes are push-ed to GitHub and both lint and test steps were verifed which passed test.
-
-Below is a screenshot of the passed GitHub Actions build
-
-![image](https://user-images.githubusercontent.com/28298236/209801334-5eb6a45d-bcd2-49d8-88d9-a6cae5ccf469.png)
-
-The Build was successfull
-
-![image](https://user-images.githubusercontent.com/28298236/209801830-c3dbd8c6-b44c-4c94-9fbc-9f43c1400215.png)
-
-
-## Continuous Delivery on Azure
-Get Flask Starter [Code](https://github.com/udacity/nd082-Azure-Cloud-DevOps-Starter-Code) on the local machine
-
-The folder was cloned and then moved to the project directory
-
-![image](https://user-images.githubusercontent.com/28298236/209822178-9d0ac6e2-a476-4a68-8156-fc3cd37d02b0.png)
 
