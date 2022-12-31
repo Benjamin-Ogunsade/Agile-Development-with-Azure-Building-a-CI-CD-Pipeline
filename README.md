@@ -293,6 +293,8 @@ We configure the Pipeline before creating one:
 
 - Click 'Create service connection'
 
+
+
 ![image](https://user-images.githubusercontent.com/28298236/209817880-aca3e8d8-8f14-4673-a54b-ba5dbb822af1.png)
 
 - Choose 'Azure Resource Manager' 
@@ -324,14 +326,28 @@ Once the service connection is established between the AzureDevOps Organization 
 
 
 
+### Configure the CI/CD Pipeline for the python ML Flask app 
+
+* Go to "Pipeline",
+
+* Click "Create Pipeline"
+
+* Select "GitHub (YAML)" as the YAML file will be stored on the Gitub repo
+
+* Select the project repo stored on GitHub "project2/"
+
+* Configure your Pipeline : "Python to Linux Web App on Azure" and select the Azure sub
+ You need to sign-in here.
+ 
+* Web App name : "myflaskmlwebapp"
+
+Validate and configure
+
+Automatically, the YAML file is produced containing all the information necessary for its CI/CD functionalities.
 
 
 
-
-
-
-
-* On the Configure tab, "Python to Linux Web App on Azure" was selected
+  
 
 
 ![image](https://user-images.githubusercontent.com/28298236/209816945-2d652305-b73a-462d-85b5-4308dcefa4d9.png)
