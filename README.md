@@ -417,4 +417,6 @@ Also there were issues encountered concerning SSL certificates and Restricted [p
 
 Doing this enables the python scripts to be downladed and built automatically from GitHub Actions.
 
+![image](https://user-images.githubusercontent.com/28298236/210149523-2179b134-9052-459c-96c4-115270190469.png)
 
+The project was successfully executed
