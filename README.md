@@ -166,15 +166,14 @@ The result produced was :
 
 ![image](https://user-images.githubusercontent.com/28298236/210118974-be95c266-28e5-4d4a-99be-ed86d75438f0.png)
 
-Delete next
-
-![image](https://user-images.githubusercontent.com/28298236/210017931-0814d1c3-6cc0-497a-88ac-9a286dd61f0b.png)
-
 
 In the previously executed command, it is expedient to state the right -rg which is the -rg on the Azure portal of your Az subscription.
 
 The app is now on the fly and publicly acccessibly via the URL (https://myflaskmlwebapp.azurewebsites.net/) provided in the result provided; the next image depicts the rendition of the URL.
 
+
+
+Delete next
 ![image](https://user-images.githubusercontent.com/28298236/210018521-1210f0ca-f342-4918-b07b-637205d9aeec.png)
 
 The URL is now recovered and inserted in the make_predict_azure_app.sh, specifically in the POST url.
