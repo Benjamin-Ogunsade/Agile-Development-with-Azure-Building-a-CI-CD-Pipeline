@@ -1,7 +1,7 @@
 # Project2
 Udacity Project 2
 
-Here is the [video]() explaning the project
+Here is the [video](https://youtu.be/CS9xCkj3wjk) explaning the project
 
 [![Python application test with Github Actions](https://github.com/Benjamin-Ogunsade/Project2/actions/workflows/pythonapp.yml/badge.svg)](https://github.com/Benjamin-Ogunsade/Project2/actions/workflows/pythonapp.yml)
 
