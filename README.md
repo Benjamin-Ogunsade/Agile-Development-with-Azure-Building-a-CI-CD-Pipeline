@@ -266,13 +266,13 @@ As a means of recapitulation,
 
 * Go to Azure DevOps organizations
 
-![image](https://user-images.githubusercontent.com/28298236/209810221-ab39f290-82d6-4989-a947-e22ec8d6ac69.png)
-
+![image](https://user-images.githubusercontent.com/28298236/210121793-83d6006f-e40a-4dac-9df9-c9bde4606b80.png)
 
 Producing
 
-![image](https://user-images.githubusercontent.com/28298236/209810726-2d10b6e9-4244-43eb-82cb-ad657a8aab80.png)
+![image](https://user-images.githubusercontent.com/28298236/210121805-d2add2cc-cfb5-4ef3-941f-1c4cd824ef27.png)
 
+Click "My Azure DevOps Organizations"
 
 * To [create](https://learn.microsoft.com/fr-fr/azure/devops/pipelines/ecosystems/python-webapp?view=azure-devops&WT.mc_id=udacity_learn-wwl#create-an-azure-devops-project-and-connect-to-azure) a new Project on Azure DevOps named "Project 2__ Continuous Delivery on Azure" :
 
