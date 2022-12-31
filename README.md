@@ -164,17 +164,15 @@ az webapp up --name myflaskmlwebapp --resource-group omoobanimi234 --runtime "PY
 
 The result produced was :
 
-![image](https://user-images.githubusercontent.com/28298236/210118974-be95c266-28e5-4d4a-99be-ed86d75438f0.png)
+![image](https://user-images.githubusercontent.com/28298236/210121147-ead5ef66-48c2-4c77-a43f-93f65ba28fc5.png)
 
 
 In the previously executed command, it is expedient to state the right -rg which is the -rg on the Azure portal of your Az subscription.
 
 The app is now on the fly and publicly acccessibly via the URL (https://myflaskmlwebapp.azurewebsites.net/) provided in the result provided; the next image depicts the rendition of the URL.
 
+![image](https://user-images.githubusercontent.com/28298236/210121075-001d3f40-232e-4e8c-9910-fb7a59b96bbd.png)
 
-
-Delete next
-![image](https://user-images.githubusercontent.com/28298236/210018521-1210f0ca-f342-4918-b07b-637205d9aeec.png)
 
 The URL is now recovered and inserted in the make_predict_azure_app.sh, specifically in the POST url.
 
@@ -187,6 +185,10 @@ Thereafter, the make_predict_azure_app.sh is executed using:
 ````
 
 Produces the result:
+
+![image](https://user-images.githubusercontent.com/28298236/210121203-12cdf716-2251-41c0-97cf-a0ab48c5c7ef.png)
+
+Delete next
 
 ![image](https://user-images.githubusercontent.com/28298236/210019418-ada9491e-3b83-4e8c-be0f-6b3ba65be3a0.png)
 
