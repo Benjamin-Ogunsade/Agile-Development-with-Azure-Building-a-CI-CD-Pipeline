@@ -133,7 +133,6 @@ python app.py
 
 Before you run this command, ensure that you have the "make all" command already ran: which calls the Makefile installing all the modules or dependencies as listed in the requirements.txt file.
 
-Delete next
 
 ![image](https://user-images.githubusercontent.com/28298236/210013142-e45df605-1a67-4846-9a2b-357553fdcd9c.png)
 
@@ -155,7 +154,7 @@ chmod +x ./make_prediction.sh
 
 Also, the app.py must be running before the prediction is locally executed. Below is the result of the local prediction:
 
-![image](https://user-images.githubusercontent.com/28298236/210015299-72dd7a06-859e-4799-9cf1-4be0bb1fb960.png)
+![image](https://user-images.githubusercontent.com/28298236/210120634-b2272d9e-8274-42f6-ad7d-48a5e15bfd00.png)
 
 Next is to run the remote prediction, there is the need to first deploy the web app
 
