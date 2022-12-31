@@ -111,12 +111,8 @@ An error was encounter upon the first run of the make all command, this was reso
 
 The result of the make all command ran locally is:
 
-![image](https://user-images.githubusercontent.com/28298236/210119481-33c14c1c-d11b-48e2-b6a3-262ee47ab45c.png)
+![image](https://user-images.githubusercontent.com/28298236/210120369-86db7b8a-b3ba-4261-8d83-f0f973f2827b.png)
 
-
-Delete next
-
-![image](https://user-images.githubusercontent.com/28298236/209798538-5dcc6c8e-0a5d-403d-bcfa-b84bf55de259.png)
 
 test_hello.py::test_hello_subtract PASSED                      [100%]
 
