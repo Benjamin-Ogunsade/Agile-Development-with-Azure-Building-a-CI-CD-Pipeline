@@ -139,7 +139,7 @@ Delete next
 
 The app is now up and running on the localhost port 5000 (127.0.0.1:5000). 
 
-![image](https://user-images.githubusercontent.com/28298236/210013283-8a6f2adf-c8fd-4bc8-92dd-65f05bfb7f4e.png)
+![image](https://user-images.githubusercontent.com/28298236/210120504-1cd34453-5211-4d10-ac08-7b3aec146014.png)
 
 Next, the local prediction is obtained upon running the make_prediction.sh in another cloud session/environment.
 
