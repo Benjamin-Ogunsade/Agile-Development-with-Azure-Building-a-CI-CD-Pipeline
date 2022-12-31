@@ -351,7 +351,22 @@ Next,
 
 On run, it proceeds to the Build stage and Deploy stage.
 
+The build and deploy were successful.
 
+![image](https://user-images.githubusercontent.com/28298236/210148886-bd8a83c9-a343-4848-b42a-b6228c8ff513.png)
+
+It is to note that a [self-hosted agent](https://learn.microsoft.com/en-us/azure/devops/pipelines/agents/pools-queues?view=azure-devops&tabs=yaml%2Cbrowser) was used to realise this project and the pool is Default with a Personal Access Token PAT created for the authentication of the AzurePipelines with Git hub.
+
+![image](https://user-images.githubusercontent.com/28298236/210149265-6d159f3d-d40a-4b43-882c-f0b6c4769e91.png)
+
+
+![image](https://user-images.githubusercontent.com/28298236/210149062-7533554e-b218-4d01-a0f9-e67dbad6592f.png)
+
+Also there were issues encountered concerning SSL certificates and Restricted [permissions](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.security/set-executionpolicy?view=powershell-7.3) on the local host which were modified as depicted in the image below:
+
+![image](https://user-images.githubusercontent.com/28298236/210149018-33041a7b-dd44-4ee4-9de2-7865a6160f25.png)
+
+Doing this enables the python scripts to be downladed and built automatically from GitHub Actions.
 
 
 
