@@ -274,29 +274,19 @@ Producing
 
 Click "My Azure DevOps Organizations"
 
-* To [create](https://learn.microsoft.com/fr-fr/azure/devops/pipelines/ecosystems/python-webapp?view=azure-devops&WT.mc_id=udacity_learn-wwl#create-an-azure-devops-project-and-connect-to-azure) a new Project on Azure DevOps named "Project 2__ Continuous Delivery on Azure" :
+* To [create](https://learn.microsoft.com/fr-fr/azure/devops/pipelines/ecosystems/python-webapp?view=azure-devops&WT.mc_id=udacity_learn-wwl#create-an-azure-devops-project-and-connect-to-azure) a new Project on Azure DevOps named "My_Flask_ML_app_project2" :
 
-![image](https://user-images.githubusercontent.com/28298236/209811430-5d02bfe6-6625-4481-a8df-4de31eca27a3.png)
+* Visibility : 'Private'
 
 The new project is now created, within which the Pipeline will be implemented 
 
-![image](https://user-images.githubusercontent.com/28298236/209811951-dc5136ec-5d37-4b1e-a246-0fcf26c53a9f.png)
-
-
-
-
-
+![image](https://user-images.githubusercontent.com/28298236/210121986-7aa00cb1-d24b-4d77-8954-c46a8597db2a.png)
 
 We configure the Pipeline before creating one:
 
-* Configuring the Pipeline
+* Configure the Pipeline
 
 Click 'Project Settings' --> Service Connections
-
-On the Configure tab, "Python to Linux Web App on Azure" was selected
-
-![image](https://user-images.githubusercontent.com/28298236/209816945-2d652305-b73a-462d-85b5-4308dcefa4d9.png)
-
 
 * Creating a new service connection called the "Azure Resource manager"
 
@@ -319,7 +309,14 @@ Make the following choices to create a "New Azure service connection"
 
 Ensure to check in 'Grant access permission to all pipelines'
 
-Once
+Once the service connection is established between the AzureDevOps Organization project and the Azure Portal, one can proceed to configure the CI/CD Pipeline for the python ML Flask app.
+
+* On the Configure tab, "Python to Linux Web App on Azure" was selected
+
+
+![image](https://user-images.githubusercontent.com/28298236/209816945-2d652305-b73a-462d-85b5-4308dcefa4d9.png)
+
+
 
 
 
