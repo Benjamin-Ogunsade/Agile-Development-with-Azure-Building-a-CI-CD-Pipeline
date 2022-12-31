@@ -1,7 +1,7 @@
 # Project2
 Udacity Project 2
 
-
+Here is the [video]() explaning the project
 
 [![Python application test with Github Actions](https://github.com/Benjamin-Ogunsade/Project2/actions/workflows/pythonapp.yml/badge.svg)](https://github.com/Benjamin-Ogunsade/Project2/actions/workflows/pythonapp.yml)
 
@@ -271,7 +271,7 @@ The Build was successfull
 
 
 
-### CI: Azure DevOps deployment set up using CI/CI Azure Pipeline
+### CI: Azure DevOps deployment set up using CI/CD Azure Pipeline
 The next phase of the project is to perform the Azure DevOps deployment using CI/CI Azure Pipeline.
 
 * First, verify that the WebApp url is active via the command
@@ -393,6 +393,9 @@ Validate and configure
 
 Automatically, the YAML file is generated and the resources are configured, including the service connection details containing all the information necessary for its CI/CD functionalities.
 
+![image](https://user-images.githubusercontent.com/28298236/210151737-8e8ec397-1a13-4ad3-91dd-3e14cd466187.png)
+
+
 Next,
 
 * "save and run"
@@ -407,7 +410,7 @@ It is to note that a [self-hosted agent](https://learn.microsoft.com/en-us/azure
 
 ![image](https://user-images.githubusercontent.com/28298236/210149265-6d159f3d-d40a-4b43-882c-f0b6c4769e91.png)
 
-To set up the self-hosted agent, see [here](https://dev.azure.com/leonardo091/My_Flask_ML_app_project2/_settings/agentqueues?queueId=1&view=agents)
+To [set up](https://www.youtube.com/watch?v=i9qrXuilNVM) the self-hosted agent, see [here](https://dev.azure.com/leonardo091/My_Flask_ML_app_project2/_settings/agentqueues?queueId=1&view=agents)
 
 ![image](https://user-images.githubusercontent.com/28298236/210149062-7533554e-b218-4d01-a0f9-e67dbad6592f.png)
 
