@@ -403,7 +403,7 @@ The build and deploy were successful.
 
 ![image](https://user-images.githubusercontent.com/28298236/210148886-bd8a83c9-a343-4848-b42a-b6228c8ff513.png)
 
-It is to note that a [self-hosted agent](https://learn.microsoft.com/en-us/azure/devops/pipelines/agents/pools-queues?view=azure-devops&tabs=yaml%2Cbrowser) was used to realise this project and the pool is Default with a Personal Access Token PAT created for the authentication of the AzurePipelines with Git hub.
+It is to note that a [self-hosted agent](https://learn.microsoft.com/en-us/azure/devops/pipelines/agents/pools-queues?view=azure-devops&tabs=yaml%2Cbrowser) was used to realise this project and the [pool](https://learn.microsoft.com/en-us/answers/questions/477716/how-to-resolve-34no-hosted-parallelism-has-been-pu.html) is Default with a Personal Access Token [PAT](https://dev.azure.com/leonardo091/_usersSettings/tokens) created for the authentication of the AzurePipelines with Git hub.
 
 ![image](https://user-images.githubusercontent.com/28298236/210149265-6d159f3d-d40a-4b43-882c-f0b6c4769e91.png)
 
@@ -411,7 +411,7 @@ To set up the self-hosted agent, see [here](https://dev.azure.com/leonardo091/My
 
 ![image](https://user-images.githubusercontent.com/28298236/210149062-7533554e-b218-4d01-a0f9-e67dbad6592f.png)
 
-Also there were issues encountered concerning SSL certificates and Restricted [permissions](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.security/set-executionpolicy?view=powershell-7.3) on the local host which were modified as depicted in the image below:
+Also there were issues encountered concerning SSL certificates and Restricted [permissions](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.security/set-executionpolicy?view=powershell-7.3) on the local host which were [modified](https://stackoverflow.com/questions/41117421/ps1-cannot-be-loaded-because-running-scripts-is-disabled-on-this-system) as depicted in the image below:
 
 ![image](https://user-images.githubusercontent.com/28298236/210149018-33041a7b-dd44-4ee4-9de2-7865a6160f25.png)
 
