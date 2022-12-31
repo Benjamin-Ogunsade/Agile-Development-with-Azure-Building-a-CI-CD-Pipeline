@@ -34,10 +34,6 @@ ssh-keygen -t rsa
 ![image](https://user-images.githubusercontent.com/28298236/210119072-fc1829a1-1483-41eb-9bcb-c3fa8224bbc1.png)
 
 
-Delete next
-
-![image](https://user-images.githubusercontent.com/28298236/209792103-2dd38240-aa6c-47c0-9333-6dbf99792fcb.png)
-
 The above command generates the public key which is recovered via:
 
 ````
@@ -46,10 +42,6 @@ cat /home/odl_user/.ssh/id_rsa.pub
 
 ![image](https://user-images.githubusercontent.com/28298236/210119125-5f15b10b-96d3-46d2-a446-5ab84bf24445.png)
 
-
-Delete next
-
-![image](https://user-images.githubusercontent.com/28298236/209792190-f43a95f4-c314-47cb-be8f-95d2ed3581dc.png)
 
 This is copied and pasted [here](https://github.com/settings/keys), select "New SSH key", give it a suitable title e.g "Project2_SSH-keys". Validate it.
 
@@ -63,11 +55,6 @@ git clone git@github.com:Benjamin-Ogunsade/Project2.git
 3. Below is a screenshot of the successful cloning
 
 <img width="512" alt="image" src="https://user-images.githubusercontent.com/28298236/210119268-2fc340d7-d3b0-4609-b98b-f2cf9f65f95c.png">
-
-Delete next
-
-<img width="518" alt="image" src="https://user-images.githubusercontent.com/28298236/209791607-2f8b7f5c-307e-4968-8535-904a253857b7.png">
-
 
 ### Project Scaffolding
 1. Create the Makefile
@@ -89,13 +76,6 @@ source ~/.myrepo/bin/activate
 
 ![image](https://user-images.githubusercontent.com/28298236/210119309-230eaa45-978a-4691-906d-b22d77d2326e.png)
 
-Delete next
-
-![image](https://user-images.githubusercontent.com/28298236/209793932-f8f6cd47-a409-4298-a49c-2a14483b76e3.png)
-
-Delete next
-
-![image](https://user-images.githubusercontent.com/28298236/209794012-b651ac0d-b560-490a-a17c-04694d0e8a3e.png)
 
 Having created the vitual environment and sourced into it
 
