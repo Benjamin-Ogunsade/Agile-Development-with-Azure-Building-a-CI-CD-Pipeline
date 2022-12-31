@@ -206,12 +206,11 @@ az webapp log tail
 
 The following result is produced:
 
-![image](https://user-images.githubusercontent.com/28298236/210020406-43833d19-0897-49ed-be0d-abe153b47d2a.png)
+![image](https://user-images.githubusercontent.com/28298236/210121427-c29d90a8-bf62-4b40-a9a7-78823ac5e8a0.png)
 
 From the above result, it is evident that
 
-* Container myflaskmlwebappy_0_5e53f50d for site myflaskmlwebappy initialized successfully and is ready to serve requests.
-
+* Container myflaskmlwebapp_0_3e8c32b2 for site myflaskmlwebapp initialized successfully and is ready to serve requests.
 
 In order to check the performance validation using the locustfile.py file, the prediction parameters are correlated with that of the app.py file.
 
@@ -221,11 +220,12 @@ Next, the file is run
 locust -f locustfile.py --headless -u 20 -r 5 -t 20s
 ````
 
-![image](https://user-images.githubusercontent.com/28298236/210023306-ec728d4c-0c19-401d-a288-0d8bdde11455.png)
+![image](https://user-images.githubusercontent.com/28298236/210121562-b3abfc23-3fc6-4e96-bfb3-230abe7dcdb5.png)
 
 The result is :
 
-![image](https://user-images.githubusercontent.com/28298236/210023367-d4a1db2d-11a7-4480-bf74-b507ee357e0c.png)
+![image](https://user-images.githubusercontent.com/28298236/210121482-ad94615c-9005-45c2-932a-560f08522fc5.png)
+
 
 ### CI: Configure GitHub Actions
 
