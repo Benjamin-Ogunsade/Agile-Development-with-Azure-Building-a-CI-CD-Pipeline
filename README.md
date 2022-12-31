@@ -286,17 +286,16 @@ We configure the Pipeline before creating one:
 
 * Configure the Pipeline
 
-Click 'Project Settings' --> Service Connections
+- Click 'Project Settings' --> Service Connections
+
 
 * Creating a new service connection called the "Azure Resource manager"
 
-Click 'Create service connection'
+- Click 'Create service connection'
 
 ![image](https://user-images.githubusercontent.com/28298236/209817880-aca3e8d8-8f14-4673-a54b-ba5dbb822af1.png)
 
-Choose 'Azure Resource Manager' 
-
-![image](https://user-images.githubusercontent.com/28298236/209821278-7f637cf0-505d-4048-aac3-df2f2893db01.png)
+- Choose 'Azure Resource Manager' 
 
 Choose 'Service principal (automatic) as authentication method, in order to enable the Build run automatically upon modification of the artifact.
 
@@ -309,7 +308,28 @@ Make the following choices to create a "New Azure service connection"
 
 Ensure to check in 'Grant access permission to all pipelines'
 
+Here is a brief re-cap in picture:
+
+![image](https://user-images.githubusercontent.com/28298236/210122510-7d541902-6157-4129-b423-4af16e1009fe.png)
+
+Please ensure your browser authorizes all automatic redirections to allow for the  authentification page pop-up, then select the resource group in which the app was deployed in the Azure Portal.
+
+The service connection is finally established as depicted below:
+
+![image](https://user-images.githubusercontent.com/28298236/210122574-1d8e76ea-10ab-41ba-823e-ab05ef7d92c1.png)
+
+
 Once the service connection is established between the AzureDevOps Organization project and the Azure Portal, one can proceed to configure the CI/CD Pipeline for the python ML Flask app.
+
+
+
+
+
+
+
+
+
+
 
 * On the Configure tab, "Python to Linux Web App on Azure" was selected
 
