@@ -188,15 +188,13 @@ Produces the result:
 
 ![image](https://user-images.githubusercontent.com/28298236/210121203-12cdf716-2251-41c0-97cf-a0ab48c5c7ef.png)
 
-Delete next
-
-![image](https://user-images.githubusercontent.com/28298236/210019418-ada9491e-3b83-4e8c-be0f-6b3ba65be3a0.png)
-
 The result shows that the app runs on the port 443.
 
 Next, we head to the Azure portal to located the deployed App Service Plan and the App Service.
 
-![image](https://user-images.githubusercontent.com/28298236/210019835-a17973cd-d65c-4e0f-b4b8-f2e62281656f.png)
+
+![image](https://user-images.githubusercontent.com/28298236/210121263-b3091805-46d0-48bd-9326-a5f63a5e37ec.png)
+
 
 Inasmuch as the App Service is running, the URL will be accessible.
 
