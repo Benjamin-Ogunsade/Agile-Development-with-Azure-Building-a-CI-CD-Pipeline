@@ -52,6 +52,7 @@ Delete next
 ![image](https://user-images.githubusercontent.com/28298236/209792190-f43a95f4-c314-47cb-be8f-95d2ed3581dc.png)
 
 This is copied and pasted [here](https://github.com/settings/keys), select "New SSH key", give it a suitable title e.g "Project2_SSH-keys". Validate it.
+
 <img width="332" alt="image" src="https://user-images.githubusercontent.com/28298236/209792004-39f829aa-41fb-4fb7-ba05-7ea13a79cb15.png">
 
 Hence, the git clone command will run, unhindered.
@@ -60,6 +61,10 @@ Hence, the git clone command will run, unhindered.
 git clone git@github.com:Benjamin-Ogunsade/Project2.git
 ````
 3. Below is a screenshot of the successful cloning
+
+<img width="512" alt="image" src="https://user-images.githubusercontent.com/28298236/210119268-2fc340d7-d3b0-4609-b98b-f2cf9f65f95c.png">
+
+Delete next
 
 <img width="518" alt="image" src="https://user-images.githubusercontent.com/28298236/209791607-2f8b7f5c-307e-4968-8535-904a253857b7.png">
 
@@ -79,12 +84,17 @@ git clone git@github.com:Benjamin-Ogunsade/Project2.git
 
 ````
 python3 -m venv ~/.myrepo
-````
-![image](https://user-images.githubusercontent.com/28298236/209793932-f8f6cd47-a409-4298-a49c-2a14483b76e3.png)
-
-````
 source ~/.myrepo/bin/activate
 ````
+
+![image](https://user-images.githubusercontent.com/28298236/210119309-230eaa45-978a-4691-906d-b22d77d2326e.png)
+
+Delete next
+
+![image](https://user-images.githubusercontent.com/28298236/209793932-f8f6cd47-a409-4298-a49c-2a14483b76e3.png)
+
+Delete next
+
 ![image](https://user-images.githubusercontent.com/28298236/209794012-b651ac0d-b560-490a-a17c-04694d0e8a3e.png)
 
 Having created the vitual environment and sourced into it
@@ -108,15 +118,23 @@ The file test
 Now that you are in the virtual environment named .myrepo, please navigate to the local cloned repo Project2.
 
 Then run the below command
+
 ````
 make all
 ````
+
+![image](https://user-images.githubusercontent.com/28298236/210119425-9e445f42-db15-4527-a264-375c0d8af668.png)
 
 An error was encounter upon the first run of the make all command, this was resolved by navigating into the right directory- the locally cloned repo Project2 within the virtual environment, see the image below.
 
 ![image](https://user-images.githubusercontent.com/28298236/209798761-29fb051c-4639-42d9-9733-03eb2132f265.png)
 
 The result of the make all command ran locally is:
+
+![image](https://user-images.githubusercontent.com/28298236/210119481-33c14c1c-d11b-48e2-b6a3-262ee47ab45c.png)
+
+
+Delete next
 
 ![image](https://user-images.githubusercontent.com/28298236/209798538-5dcc6c8e-0a5d-403d-bcfa-b84bf55de259.png)
 
@@ -138,6 +156,8 @@ python app.py
 ````
 
 Before you run this command, ensure that you have the "make all" command already ran: which calls the Makefile installing all the modules or dependencies as listed in the requirements.txt file.
+
+Delete next
 
 ![image](https://user-images.githubusercontent.com/28298236/210013142-e45df605-1a67-4846-9a2b-357553fdcd9c.png)
 
