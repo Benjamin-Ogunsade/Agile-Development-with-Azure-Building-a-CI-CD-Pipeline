@@ -343,7 +343,15 @@ Once the service connection is established between the AzureDevOps Organization 
 
 Validate and configure
 
-Automatically, the YAML file is produced containing all the information necessary for its CI/CD functionalities.
+Automatically, the YAML file is generated and the resources are configured, including the service connection details containing all the information necessary for its CI/CD functionalities.
+
+Next,
+
+* "save and run"
+
+On run, it proceeds to the Build stage and Deploy stage.
+
+
 
 
 
