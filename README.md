@@ -247,12 +247,13 @@ And true is the case; it is still active on port 443.
 
 Both works still as shown below :
 
-![image](https://user-images.githubusercontent.com/28298236/210109394-b86ded61-47f2-48a8-86ae-eb048c1df2ea.png)
+![image](https://user-images.githubusercontent.com/28298236/210121727-08e2a4be-e522-43e1-a0a0-1d9f0c0b1a04.png)
+
+There was an initial fail to connect error due to the fact that app.py was temporarily down.
 
 In summary for the Cloud share, the local and remote predictions are working correctly.
 
 * Next, proceed to the Azure Portal to launch the "Azure DevOps Organization" 
-
 
 
 ### Azure Continuous Delivery PAAS 
