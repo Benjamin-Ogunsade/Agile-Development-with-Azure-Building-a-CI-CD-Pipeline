@@ -418,8 +418,3 @@ Also there were issues encountered concerning SSL certificates and Restricted [p
 Doing this enables the python scripts to be downladed and built automatically from GitHub Actions.
 
 
-![image](https://user-images.githubusercontent.com/28298236/209816945-2d652305-b73a-462d-85b5-4308dcefa4d9.png)
-
-
-
-
